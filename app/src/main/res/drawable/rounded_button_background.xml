@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@android:color/white" />
+    <corners android:radius="40dp" /> <!-- Imposta il raggio dei bordi per rendere le punte tonde -->
+    <padding
+        android:left="10dp"
+        android:top="10dp"
+        android:right="10dp"
+        android:bottom="10dp" />
+    <stroke
+        android:width="2dp"
+        android:color="#000000" /><!-- Aggiunge spazio intorno al contenuto del bottone -->
+</shape>

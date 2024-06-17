@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Format">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="412dp"
+        android:layout_height="158dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="61dp"
+        android:layout_height="56dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/freccia" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="337dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="168dp"
+        android:text="Segnalazione chat Teams L1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/names"
+        android:layout_width="273dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="232dp"
+        android:ems="10"
+        android:hint="Location - Studio - Produzione"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.188"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ora"
+        android:layout_width="273dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="316dp"
+        android:ems="10"
+        android:hint="Data - Ora"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.188"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/descrizione"
+        android:layout_width="273dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="412dp"
+        android:ems="10"
+        android:hint="Descrizione - Problematica"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.188"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/risoluzione"
+        android:layout_width="273dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="568dp"
+        android:ems="10"
+        android:hint="Risoluzione - Escalation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.188"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="194dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="500dp"
+        android:text="Impatto in onda"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/invia"
+        android:layout_width="277dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="109dp"
+        android:background="@drawable/rounded_button_background"
+        android:text="Invia"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/risoluzione" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="98dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/gender"
+        app:layout_constraintTop_toBottomOf="@+id/descrizione">
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:text="SI"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="13dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:text="NO"
+            android:textSize="24sp" />
+    </RadioGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

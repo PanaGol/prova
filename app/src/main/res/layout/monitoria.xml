@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="412dp"
+        android:layout_height="158dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="277dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="109dp"
+        android:background="@drawable/rounded_button_background"
+        android:textSize="25dp"
+
+        android:text="Nagios Studi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="277dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="109dp"
+        android:background="@drawable/rounded_button_background"
+        android:textSize="25dp"
+
+        android:text="Nagios News"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button12" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="277dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="109dp"
+        android:background="@drawable/rounded_button_background"
+        android:textSize="25dp"
+
+        android:text="DDN NEWS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button14" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="277dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="109dp"
+        android:background="@drawable/rounded_button_background"
+        android:textSize="25dp"
+
+        android:text="DDN AGSL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button15" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="277dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="109dp"
+        android:background="@drawable/rounded_button_background"
+        android:text="Dashboard"
+        android:textSize="25dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button16" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="239dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="45dp"
+        android:text="Monitoring"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/button12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="69dp"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/freccia" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

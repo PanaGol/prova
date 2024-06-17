@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="WhiteButtonText" parent="Widget.AppCompat.Button">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColor">@android:color/black</item> <!-- Cambia il colore del testo a nero -->
+        <!-- Aggiungi altri attributi desiderati per lo stile del testo -->
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+
+
+</resources>
